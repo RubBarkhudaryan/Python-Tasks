@@ -1,0 +1,33 @@
+print("Operators")
+print("Assigment operators")
+x = 15
+y = 12
+x = y
+print("x=y is", x)
+x += y
+print("x+=y is", x)
+x -= y
+print("x-=y is", x)
+x *= y
+print("x*=y is", x)
+x /= y
+print("x/=y is", x)
+x = int(x)
+x %= y
+print("x%=y is", x)
+x = 15
+x //= y
+print("x//=y is", x)
+x **= y
+print("x**=y is", x)
+x = int(x)
+x &= y
+print("x&=y is", x)
+x |= y
+print("x|=y is", x)
+x ^= y
+print("x^=y is", x)
+x >>= y
+print("x>>=y is", x)
+x <<= y
+print("x<<=y is", x)

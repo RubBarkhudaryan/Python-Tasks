@@ -1,0 +1,18 @@
+print("Data Types")
+print("Dictionaries")
+dict1={'one':10,'two':20,3:"three"}
+print(dict1,'is of type',type(dict1))
+dict2={}
+print(dict2,'is of type',type(dict2))
+dict3=dict([("name","Mat"),("gender","Male"),("age",20)])
+print(dict3,'is of type',type(dict3))
+dict4=dict([["name","Mat"],["gender","Male"],["age",20]])
+print(dict4,'is of type',type(dict4))
+dict5=dict((("name","Mat"),("gender","Male"),("age",20)))
+print(dict5,'is of type',type(dict5))
+dict6=dict((["name","Mat"],["gender","Male"],["age",20]))
+print(dict6,'is of type',type(dict6))
+dict7=dict()
+print(dict7,'is of type',type(dict7))
+dict8=dict((("name","Mat"),["gender","Male"],["age",20]))
+print(dict8,'is of type',type(dict8))

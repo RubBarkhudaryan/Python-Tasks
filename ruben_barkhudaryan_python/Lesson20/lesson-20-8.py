@@ -1,0 +1,6 @@
+print("Data Types")
+print("Tuples")
+print("Checking if an item exists")
+tup1=('a','b','c','d','e','f','e','f','g')
+print('z' in tup1)
+print('d' in tup1)

@@ -1,0 +1,10 @@
+print("Data Types")
+print("Tuples")
+print("Removing the items of the  tuple by\
+converting it into a list")
+tup1=('a','b','c','d',[20,30,45])
+list1=list(tup1)
+list1.pop()
+list1.remove('c')
+tup1=tuple(list1)
+print(tup1)
